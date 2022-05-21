@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sem7B.Elemento">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="mensaje"/>
+            <Entry x:Name="Nombre" Placeholder="Nombre"/>
+            <Entry x:Name="Usuario" Placeholder="Usuario"/>
+            <Entry x:Name="Contrasena" Placeholder="Constrasena" IsPassword="True"/>
+            <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked"/>
+            <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
